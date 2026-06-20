@@ -119,8 +119,6 @@ pip install streamlit joblib scikit-learn pandas numpy
 streamlit run app.py
 ```
 
-The app will be available at `http://localhost:8501`.
-
 > **Note:** `churn_model.pkl` and `scaler.pkl` are generated artifacts and are not included in this repository. Running the training code will regenerate them automatically before launching the app.
 
 ## Project Structure
@@ -129,7 +127,6 @@ The app will be available at `http://localhost:8501`.
 ├── complete_code(.ipynb/.py)        # Full pipeline: EDA, preprocessing, training, evaluation
 ├── app.py                           # Streamlit web application
 ├── Telco-Customer-Churn.csv         # Raw dataset
-├── telco_churn_preprocessed.csv     # Preprocessed dataset (optional)
 ├── Visualizations/                  # Generated charts and plots
 ├── Project_Report.pdf               # Full project report
 └── README.md
@@ -150,5 +147,3 @@ The app will be available at `http://localhost:8501`.
 ## References
 
 - IBM. (2019). Telco Customer Churn Dataset. [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
-- Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. *JMLR*, 12, 2825–2830.
-- Breiman, L. (2001). Random forests. *Machine Learning*, 45(1), 5–32.
